@@ -165,3 +165,25 @@ ON payments(order_id);
 
 CREATE INDEX idx_orders_purchase_date
 ON orders(order_purchase_timestamp);
+
+CREATE INDEX idx_order_items_seller
+ON order_items(seller_id);
+
+CREATE INDEX idx_customers_zip
+ON customers(customer_zip_code_prefix);
+
+CREATE INDEX idx_geolocation_zip
+ON geolocation_unique(geolocation_zip_code_prefix);
+
+
+
+
+
+ALTER TABLE reviews
+ADD CONSTRAINT fk_reviews_order
+FOREIGN KEY (order_id)
+REFERENCES orders(order_id);
+
+
+ALTER TABLE reviews
+ADD PRIMARY KEY (review_id);
