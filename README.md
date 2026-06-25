@@ -1,22 +1,73 @@
-# 🚀 Ecommerce Analytics Pipeline
+# 🚀 E-Commerce Analytics Pipeline
 
-End-to-end Data Engineering project using:
-- Python
-- SQL
-- AWS
-- Airflow
-- PostgreSQL
-- Power BI
+An end-to-end Data Engineering and Business Intelligence project built using the Olist Brazilian E-Commerce dataset.
 
 ## 📌 Project Goal
-Build a modern data pipeline for e-commerce analytics.
+
+Build a scalable analytics pipeline that loads raw e-commerce data into PostgreSQL, performs business analysis using SQL, and visualizes insights through interactive Power BI dashboards.
+
+---
 
 ## 🏗️ Architecture
-Raw Data → ETL → AWS S3 → PostgreSQL → Dashboard → Airflow
+
+```text
+CSV Files
+    ↓
+Python ETL
+    ↓
+PostgreSQL
+    ↓
+Analytics SQL
+    ↓
+Power BI Dashboards
+```
+
+---
 
 ## 🛠️ Tech Stack
+
 - Python
 - PostgreSQL
-- AWS S3
-- Apache Airflow
+- SQL
 - Power BI
+- Git
+
+---
+
+## 📂 Dataset
+
+- Olist Brazilian E-Commerce Dataset
+- Analysis Period: 2016–2018
+
+---
+
+## 📊 Dashboards
+
+- Executive Overview
+- Sales Performance Analysis
+- Product & Seller Insights
+- Customer & Logistics Insights
+
+---
+
+## 📁 Project Structure
+
+```text
+ecommerce-analytics-pipeline/
+├── data/
+├── src/
+├── sql/
+├── powerbi/
+├── screenshots/
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+## 🚀 Future Enhancements
+
+- Apache Airflow for ETL orchestration
+- AWS S3 for cloud data storage
+- Docker for containerization
