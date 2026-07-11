@@ -48,6 +48,33 @@ Power BI Dashboards
 - Product & Seller Insights
 - Customer & Logistics Insights
 
+
+    ### Executive Overview
+    Provides a high-level business summary including revenue, orders, customers, and KPIs.
+
+    ![Executive Overview](dashboard/screenshots/executive_overview.png)
+
+    ---
+
+    ### Sales Performance
+    Analyzes monthly sales trends, revenue growth, and top-performing regions.
+
+    ![Sales Performance](dashboard/screenshots/sales_performance.png)
+
+    ---
+
+    ### Product & Seller Insights
+    Highlights product categories, seller performance, and profitability.
+
+    ![Product & Seller Insights](dashboard/screenshots/product_seller_insights.png)
+
+    ---
+
+    ### Customer & Logistics Insights
+    Visualizes customer distribution, shipping performance, and delivery metrics.
+
+    ![Customer & Logistics Insights](dashboard/screenshots/customer_logistics.png)
+
 ---
 
 ## 📁 Project Structure
